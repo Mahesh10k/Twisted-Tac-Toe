@@ -136,7 +136,7 @@ const Board=({
           className={`cell ${cell?.player === 1 ? 'player1' : 'player2'}`}
           onClick={() => handleCellClick(index)}
         >
-          {cell?.emoji}
+          {cell?.emoji && <div className="cell-emoji">{cell.emoji}</div>}
         </div>
       ))}
     </div>
