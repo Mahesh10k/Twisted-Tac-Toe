@@ -70,7 +70,6 @@ function App() {
 
   return (
     <div className="app">
-      {/* <h1>Twisted Tic Tac Toe</h1> */}
       <div className="container">
         <div className="title">
           <h1>Twisted Tic Tac Toe</h1>
